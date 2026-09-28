@@ -1,0 +1,146 @@
+[
+  {
+    "id": "M01",
+    "name": "Blue striped fabric",
+    "description": "blue striped fabric material sample",
+    "category": "fabric",
+    "color": "blue",
+    "pattern": "striped",
+    "image": "/static/swatches/M01.png"
+  },
+  {
+    "id": "M02",
+    "name": "Blue speckled fabric",
+    "description": "blue speckled fabric material sample",
+    "category": "fabric",
+    "color": "blue",
+    "pattern": "speckled",
+    "image": "/static/swatches/M02.png"
+  },
+  {
+    "id": "M03",
+    "name": "Red striped fabric",
+    "description": "red striped fabric material sample",
+    "category": "fabric",
+    "color": "red",
+    "pattern": "striped",
+    "image": "/static/swatches/M03.png"
+  },
+  {
+    "id": "M04",
+    "name": "Red speckled fabric",
+    "description": "red speckled fabric material sample",
+    "category": "fabric",
+    "color": "red",
+    "pattern": "speckled",
+    "image": "/static/swatches/M04.png"
+  },
+  {
+    "id": "M05",
+    "name": "Green striped fabric",
+    "description": "green striped fabric material sample",
+    "category": "fabric",
+    "color": "green",
+    "pattern": "striped",
+    "image": "/static/swatches/M05.png"
+  },
+  {
+    "id": "M06",
+    "name": "Green speckled fabric",
+    "description": "green speckled fabric material sample",
+    "category": "fabric",
+    "color": "green",
+    "pattern": "speckled",
+    "image": "/static/swatches/M06.png"
+  },
+  {
+    "id": "M07",
+    "name": "Gold striped fabric",
+    "description": "gold striped fabric material sample",
+    "category": "fabric",
+    "color": "gold",
+    "pattern": "striped",
+    "image": "/static/swatches/M07.png"
+  },
+  {
+    "id": "M08",
+    "name": "Gold speckled fabric",
+    "description": "gold speckled fabric material sample",
+    "category": "fabric",
+    "color": "gold",
+    "pattern": "speckled",
+    "image": "/static/swatches/M08.png"
+  },
+  {
+    "id": "M09",
+    "name": "Blue striped tile",
+    "description": "blue striped tile material sample",
+    "category": "tile",
+    "color": "blue",
+    "pattern": "striped",
+    "image": "/static/swatches/M09.png"
+  },
+  {
+    "id": "M10",
+    "name": "Blue speckled tile",
+    "description": "blue speckled tile material sample",
+    "category": "tile",
+    "color": "blue",
+    "pattern": "speckled",
+    "image": "/static/swatches/M10.png"
+  },
+  {
+    "id": "M11",
+    "name": "Red striped tile",
+    "description": "red striped tile material sample",
+    "category": "tile",
+    "color": "red",
+    "pattern": "striped",
+    "image": "/static/swatches/M11.png"
+  },
+  {
+    "id": "M12",
+    "name": "Red speckled tile",
+    "description": "red speckled tile material sample",
+    "category": "tile",
+    "color": "red",
+    "pattern": "speckled",
+    "image": "/static/swatches/M12.png"
+  },
+  {
+    "id": "M13",
+    "name": "Green striped tile",
+    "description": "green striped tile material sample",
+    "category": "tile",
+    "color": "green",
+    "pattern": "striped",
+    "image": "/static/swatches/M13.png"
+  },
+  {
+    "id": "M14",
+    "name": "Green speckled tile",
+    "description": "green speckled tile material sample",
+    "category": "tile",
+    "color": "green",
+    "pattern": "speckled",
+    "image": "/static/swatches/M14.png"
+  },
+  {
+    "id": "M15",
+    "name": "Gold striped tile",
+    "description": "gold striped tile material sample",
+    "category": "tile",
+    "color": "gold",
+    "pattern": "striped",
+    "image": "/static/swatches/M15.png"
+  },
+  {
+    "id": "M16",
+    "name": "Gold speckled tile",
+    "description": "gold speckled tile material sample",
+    "category": "tile",
+    "color": "gold",
+    "pattern": "speckled",
+    "image": "/static/swatches/M16.png"
+  }
+]

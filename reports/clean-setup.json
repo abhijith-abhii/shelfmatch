@@ -1,0 +1,9 @@
+{
+  "slug": "shelfmatch",
+  "fresh_venv": "work/clean-envs/shelfmatch",
+  "fresh_checkout": "work/clean/shelfmatch",
+  "passed": true,
+  "failure": null,
+  "runtime": "Python 3.12.14",
+  "model_training": null
+}
