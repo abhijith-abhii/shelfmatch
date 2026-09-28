@@ -23,11 +23,15 @@ Follow the README installation block, then: Search blue striped fabric, choose a
 
 ## Five interview questions
 
-1. **What problem does this project solve, and what is its unit of work?** Explain find products with text and visual constraints, identify catalog users as the audience, and trace one concrete example through the files above. Use the demonstration output rather than hypothetical impact.
-2. **Why did you choose the first design decision?** Represent catalog text with TF-IDF and images with explicit color histograms plus directional texture descriptors. Show the corresponding implementation and a test that would fail if that property were removed.
-3. **How do you protect correctness when inputs or execution change?** Combine normalized similarity scores with a visible text/image weight. Explain the relevant invalid-input or edge-case test and distinguish a checked property from an untested assumption.
-4. **How do you make results inspectable and reproducible?** Use original procedural swatches and deterministic IDs so the entire multimodal example is reproducible. Point to actual outputs and recorded commands. Explain why a successful example is weaker evidence than a tested boundary or independently reconciled total.
-5. **What would you improve before real deployment or real-data use?** An engineered multimodal retrieval baseline, not a pretrained neural vision-language system. Sixteen synthetic material swatches; visual queries select a catalog reference instead of accepting arbitrary uploads. Similarities are not probabilities. Choose one limitation, describe the missing evidence, and propose a measurable acceptance check rather than promising production readiness.
+1. **What makes the search multimodal?** The final ranking combines TF-IDF text similarity with image color and texture similarities. Both text and visual input can change the order of results.
+
+2. **Is this a pretrained vision-language model?** No. It is an interpretable feature baseline over an original sixteen-swatch catalog. It should not be presented as CLIP or semantic scene understanding.
+
+3. **Why expose the modality weight?** A user can see how prioritizing appearance versus description changes a result. The tradeoff is explicit and useful for explaining ranking behavior.
+
+4. **What are the dataset boundaries?** The fabric/tile swatches are procedurally generated, not real retailer inventory. Image queries use catalog examples; arbitrary uploaded-product recognition is not implemented.
+
+5. **How would you measure better retrieval?** Create labeled query–relevant-product pairs, hold some out, and evaluate ranking metrics such as recall at k. Visual plausibility alone is insufficient evidence of improvement.
 
 ## Independent exercise
 
@@ -41,6 +45,6 @@ The implementation was developed with substantial AI assistance under Abhijith V
 
 Suggested factual bullet after personally validating the demo:
 
-- Implemented and validated find products with text and visual constraints using Pillow · scikit-learn · Flask, with text and image descriptor retrieval and documented correctness checks and limitations.
+- Implemented weighted text-and-image product ranking using TF-IDF, color and texture features over sixteen original procedural swatches; verified twelve checks.
 
 Use [VERIFICATION.md](VERIFICATION.md) to add only measured numbers. Do not claim production traffic, users, savings, upstream acceptance or cloud deployment without corresponding evidence.
